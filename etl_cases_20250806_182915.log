@@ -1,8 +1,0 @@
-2025-08-06 18:29:15,855 - INFO - ==================================================
-2025-08-06 18:29:15,855 - INFO - Starting ETL Process for Cases Data
-2025-08-06 18:29:15,856 - INFO - ==================================================
-2025-08-06 18:29:15,856 - INFO - Starting data extraction...
-2025-08-06 18:29:35,577 - INFO - Successfully extracted 128215 records
-2025-08-06 18:29:35,578 - INFO - First 5 rows of the extracted data:
-2025-08-06 18:29:35,928 - INFO - Starting data load to table: Cases
-2025-08-06 18:29:35,929 - INFO - Loading 128215 records to staging table: Cases_staging
