@@ -1,0 +1,25 @@
+2025-08-07 05:55:18,656 - INFO - ==================================================
+2025-08-07 05:55:18,656 - INFO - Starting ETL Process for Cases Data
+2025-08-07 05:55:18,656 - INFO - ==================================================
+2025-08-07 05:55:18,656 - INFO - Starting data extraction...
+2025-08-07 05:55:20,498 - INFO - Successfully extracted 128215 records
+2025-08-07 05:55:20,498 - INFO - First 5 rows of the extracted data:
+2025-08-07 05:55:20,506 - INFO - 
+                            Name PhoneNumber1  ... FamilyNumber Age
+0            صباح محمد عطوه سليم   1146066904  ...            4  65
+1         احمد السيد محمود بيومي   1095704248  ...            3  33
+2  قمر ابراهيم ابراهيم عبدالرحيم   1555556948  ...            1  64
+3     اشواق عبدالحميد محمد معاني   1094625027  ...            3  44
+4     مهيره محمود أحمد عبدالحليم   1272923192  ...            4  54
+
+[5 rows x 7 columns]
+2025-08-07 05:55:20,545 - INFO - Starting data load to table: Cases
+2025-08-07 05:55:20,546 - INFO - Loading 128215 records to staging table: Cases_staging
+2025-08-07 05:55:37,214 - INFO - Executing MERGE operation (insert/update)...
+2025-08-07 05:55:39,277 - INFO - MERGE operation affected 128215 rows
+2025-08-07 05:55:39,277 - INFO - Executing DELETE operation for missing records...
+2025-08-07 05:55:43,812 - INFO - DELETE operation affected 0 rows
+2025-08-07 05:55:43,841 - INFO - Full sync completed successfully: insert/update/delete operations applied.
+2025-08-07 05:55:43,841 - INFO - ==================================================
+2025-08-07 05:55:43,841 - INFO - ETL Process completed successfully in 0:00:25.184905
+2025-08-07 05:55:43,841 - INFO - ==================================================
